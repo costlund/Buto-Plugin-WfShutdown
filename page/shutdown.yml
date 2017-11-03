@@ -1,0 +1,23 @@
+content:
+  message:
+    type: div
+    innerHTML: 'This site is closed!'
+  form:
+    type: form
+    settings:
+      disabled: true
+    attribute:
+      action: /
+      method: post
+    innerHTML:
+      password:
+        type: input
+        attribute:
+          name: password
+          value: 
+      submit:
+        type: input
+        attribute:
+          type: submit
+          value: Sign in
+          
