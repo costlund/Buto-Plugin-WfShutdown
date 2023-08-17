@@ -34,7 +34,7 @@ class PluginWfShutdown{
       /**
        * Set layout.
        */
-      wfArray::set($GLOBALS, 'sys/layout_path', '/plugin/demo/shutdown/layout');
+      wfGlobals::setSys('layout_path', '/plugin/demo/shutdown/layout');
       $filename = ( __DIR__).'/page/shutdown.yml';
       $page = wfFilesystem::loadYml($filename);
       /**
